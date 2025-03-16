@@ -1,0 +1,68 @@
+/* Teacher Dashboard Page */
+.teacher-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.teacher-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.class-info {
+  background: #f8f8f8;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.class-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.student-table th, .student-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.student-table th {
+  background: #4b6cb7;
+  color: white;
+}
+
+.student-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.logout-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-button:hover {
+  background: #182848;
+}
